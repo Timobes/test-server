@@ -1,0 +1,23 @@
+version: "3.8"
+
+services:
+  auth:
+    build: .
+    ports: 
+     - "8000:8000"
+    environment: 
+      - DB_HOST=auth-db
+    depends_on:
+      - auth-db
+    env_file: 
+      - .env.prod
+
+  auth-db:
+    image: postgres:15
+    restart: always
+    environment: 
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: auth
+    ports:
+      - "5432:5432" 

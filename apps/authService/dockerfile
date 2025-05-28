@@ -1,0 +1,21 @@
+FROM node:18-slim
+
+RUN apt-get update && apt-get install -y openssl
+
+RUN npm i -g pnpm typescript
+
+WORKDIR /usr/src/app
+
+COPY package.json ./
+RUN pnpm install
+
+COPY prisma ./prisma
+COPY tsconfig.json ./
+COPY src ./src
+
+RUN pnpm build
+RUN npx prisma generate
+
+EXPOSE 8001
+
+CMD ["pnpm", "start"]

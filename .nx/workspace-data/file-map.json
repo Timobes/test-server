@@ -1,0 +1,567 @@
+{
+  "version": "6.0",
+  "nxVersion": "21.0.3",
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "projectFileMap": {
+      "gatewayService": [
+        {
+          "file": "apps/gatewayService/.gitignore",
+          "hash": "12975187279384539528"
+        },
+        {
+          "file": "apps/gatewayService/dist/config/apiDocConfig.js",
+          "hash": "354311495182602948"
+        },
+        {
+          "file": "apps/gatewayService/dist/config/loggerConfig.js",
+          "hash": "17704552473894947949"
+        },
+        {
+          "file": "apps/gatewayService/dist/controllers/auth.controller.js",
+          "hash": "17133343625351047896"
+        },
+        {
+          "file": "apps/gatewayService/dist/index.js",
+          "hash": "18329078568254455949"
+        },
+        {
+          "file": "apps/gatewayService/dist/interfaces/gateway.interface.js",
+          "hash": "10533815908077531553"
+        },
+        {
+          "file": "apps/gatewayService/dist/routers/gateway.router.js",
+          "hash": "1507101128527746337"
+        },
+        {
+          "file": "apps/gatewayService/dist/schemas/gateway.schema.js",
+          "hash": "6484850611991807391"
+        },
+        {
+          "file": "apps/gatewayService/dist/tests/auth.test.js",
+          "hash": "10124652172840941522"
+        },
+        {
+          "file": "apps/gatewayService/docker-compose.yml",
+          "hash": "10606320777069298818"
+        },
+        {
+          "file": "apps/gatewayService/dockerfile",
+          "hash": "3503314319728129759"
+        },
+        {
+          "file": "apps/gatewayService/logs/app.log",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/gatewayService/package.json",
+          "hash": "10560501315825221838",
+          "deps": [
+            "npm:@types/node",
+            "npm:ts-node",
+            "npm:@fastify/swagger",
+            "npm:@fastify/swagger-ui",
+            "npm:@vitest/ui",
+            "npm:axios",
+            "npm:fastify",
+            "npm:nodemon",
+            "npm:pino",
+            "npm:pino-pretty",
+            "npm:typedoc",
+            "npm:typedoc-unhoax-theme",
+            "npm:vitest"
+          ]
+        },
+        {
+          "file": "apps/gatewayService/src/.gitignore",
+          "hash": "12975187279384539528"
+        },
+        {
+          "file": "apps/gatewayService/src/config/apiDocConfig.ts",
+          "hash": "5866640469927120918"
+        },
+        {
+          "file": "apps/gatewayService/src/config/loggerConfig.ts",
+          "hash": "12459701771154171499"
+        },
+        {
+          "file": "apps/gatewayService/src/controllers/auth.controller.ts",
+          "hash": "17357498618303617873"
+        },
+        {
+          "file": "apps/gatewayService/src/index.ts",
+          "hash": "6131304033890804725"
+        },
+        {
+          "file": "apps/gatewayService/src/interfaces/gateway.interface.ts",
+          "hash": "2729146697485799036"
+        },
+        {
+          "file": "apps/gatewayService/src/routers/gateway.router.ts",
+          "hash": "13622318170075279260"
+        },
+        {
+          "file": "apps/gatewayService/src/schemas/gateway.schema.ts",
+          "hash": "15990431823542842116"
+        },
+        {
+          "file": "apps/gatewayService/src/tests/auth.test.ts",
+          "hash": "8240615401092679701"
+        },
+        {
+          "file": "apps/gatewayService/tsconfig.json",
+          "hash": "12183170724025852206"
+        },
+        {
+          "file": "apps/gatewayService/typedoc.json",
+          "hash": "3251060907513282800"
+        }
+      ],
+      "authService": [
+        {
+          "file": "apps/authService/.env.prod",
+          "hash": "2872452945412659716"
+        },
+        {
+          "file": "apps/authService/.gitignore",
+          "hash": "12975187279384539528"
+        },
+        {
+          "file": "apps/authService/dist/config/apiDocConfig.js",
+          "hash": "354311495182602948"
+        },
+        {
+          "file": "apps/authService/dist/config/db.js",
+          "hash": "15476664544655632788"
+        },
+        {
+          "file": "apps/authService/dist/config/loggerConfig.js",
+          "hash": "17704552473894947949"
+        },
+        {
+          "file": "apps/authService/dist/controllers/auth.controller.js",
+          "hash": "8314475119237425521"
+        },
+        {
+          "file": "apps/authService/dist/index.js",
+          "hash": "11351259469592595002"
+        },
+        {
+          "file": "apps/authService/dist/interfaces/auth.interface.js",
+          "hash": "10533815908077531553"
+        },
+        {
+          "file": "apps/authService/dist/models/auth.model.js",
+          "hash": "4469764048262876761"
+        },
+        {
+          "file": "apps/authService/dist/repository/auth.repository.js",
+          "hash": "3669828676653405023"
+        },
+        {
+          "file": "apps/authService/dist/routers/auth.router.js",
+          "hash": "9389831872704448390"
+        },
+        {
+          "file": "apps/authService/dist/schemas/auth.schema.js",
+          "hash": "6484850611991807391"
+        },
+        {
+          "file": "apps/authService/dist/services/auth.service.js",
+          "hash": "12300504920471266419"
+        },
+        {
+          "file": "apps/authService/dist/tests/auth.test.js",
+          "hash": "10124652172840941522"
+        },
+        {
+          "file": "apps/authService/docker-compose.yml",
+          "hash": "10606320777069298818"
+        },
+        {
+          "file": "apps/authService/dockerfile",
+          "hash": "15737786914506379300"
+        },
+        {
+          "file": "apps/authService/docs/.nojekyll",
+          "hash": "12301719336174243164"
+        },
+        {
+          "file": "apps/authService/docs/assets/decompress.js",
+          "hash": "13153414691777168315"
+        },
+        {
+          "file": "apps/authService/docs/assets/h.js",
+          "hash": "6897867847583565033"
+        },
+        {
+          "file": "apps/authService/docs/assets/hierarchy.js",
+          "hash": "1796930891880343960"
+        },
+        {
+          "file": "apps/authService/docs/assets/highlight.css",
+          "hash": "10570169164053930810"
+        },
+        {
+          "file": "apps/authService/docs/assets/icons.js",
+          "hash": "16920762893256242568"
+        },
+        {
+          "file": "apps/authService/docs/assets/icons.svg",
+          "hash": "12265282051439672960"
+        },
+        {
+          "file": "apps/authService/docs/assets/init-app.js",
+          "hash": "16572183260042396802"
+        },
+        {
+          "file": "apps/authService/docs/assets/init-page-content-nav.js",
+          "hash": "3163922063396271053"
+        },
+        {
+          "file": "apps/authService/docs/assets/init-search.js",
+          "hash": "16257791411701089521"
+        },
+        {
+          "file": "apps/authService/docs/assets/library.d.ts",
+          "hash": "7090890446885774477"
+        },
+        {
+          "file": "apps/authService/docs/assets/library.js",
+          "hash": "1220256173466609331"
+        },
+        {
+          "file": "apps/authService/docs/assets/lunr.d.ts",
+          "hash": "6847449010083415290"
+        },
+        {
+          "file": "apps/authService/docs/assets/lunr.js",
+          "hash": "11759351509051848300"
+        },
+        {
+          "file": "apps/authService/docs/assets/main.js",
+          "hash": "15681788992973719946"
+        },
+        {
+          "file": "apps/authService/docs/assets/navigation.js",
+          "hash": "1131960418843752291"
+        },
+        {
+          "file": "apps/authService/docs/assets/search.js",
+          "hash": "6607935809104214249"
+        },
+        {
+          "file": "apps/authService/docs/assets/style.css",
+          "hash": "6390674142144445392"
+        },
+        {
+          "file": "apps/authService/docs/assets/styles.css",
+          "hash": "10230574208346120776"
+        },
+        {
+          "file": "apps/authService/docs/functions/controllers_auth.controller.RegController.html",
+          "hash": "1218197995544750092"
+        },
+        {
+          "file": "apps/authService/docs/functions/routers_auth.router.authRouter.html",
+          "hash": "7169359072507164453"
+        },
+        {
+          "file": "apps/authService/docs/functions/services_auth.service.RegService.html",
+          "hash": "13830553070516331103"
+        },
+        {
+          "file": "apps/authService/docs/hierarchy.html",
+          "hash": "8990848748877107097"
+        },
+        {
+          "file": "apps/authService/docs/index.html",
+          "hash": "7235411397040659894"
+        },
+        {
+          "file": "apps/authService/docs/interfaces/interfaces_auth.interface.IReg.html",
+          "hash": "13890972127981345927"
+        },
+        {
+          "file": "apps/authService/docs/modules/config_apiDocConfig.html",
+          "hash": "7032228905128843393"
+        },
+        {
+          "file": "apps/authService/docs/modules/config_db.html",
+          "hash": "3644388880652261128"
+        },
+        {
+          "file": "apps/authService/docs/modules/config_loggerConfig.html",
+          "hash": "6101466040416206989"
+        },
+        {
+          "file": "apps/authService/docs/modules/controllers_auth.controller.html",
+          "hash": "10782980779758908341"
+        },
+        {
+          "file": "apps/authService/docs/modules/index.html",
+          "hash": "15469042040726840573"
+        },
+        {
+          "file": "apps/authService/docs/modules/interfaces_auth.interface.html",
+          "hash": "14601850774051545412"
+        },
+        {
+          "file": "apps/authService/docs/modules/models_auth.model.html",
+          "hash": "12573341553500979388"
+        },
+        {
+          "file": "apps/authService/docs/modules/repository_auth.repository.html",
+          "hash": "650553355051120723"
+        },
+        {
+          "file": "apps/authService/docs/modules/routers_auth.router.html",
+          "hash": "16429867794286669781"
+        },
+        {
+          "file": "apps/authService/docs/modules/schemas_auth.schema.html",
+          "hash": "1001431784670717496"
+        },
+        {
+          "file": "apps/authService/docs/modules/services_auth.service.html",
+          "hash": "12288995904538195788"
+        },
+        {
+          "file": "apps/authService/docs/modules/tests_auth.test.html",
+          "hash": "16206476717707110591"
+        },
+        {
+          "file": "apps/authService/docs/variables/config_apiDocConfig.swaggerConfig.html",
+          "hash": "10270955605274059364"
+        },
+        {
+          "file": "apps/authService/docs/variables/config_apiDocConfig.swaggerUIConfig.html",
+          "hash": "5647924801300337526"
+        },
+        {
+          "file": "apps/authService/docs/variables/config_loggerConfig.devLoggers.html",
+          "hash": "16364597086282545004"
+        },
+        {
+          "file": "apps/authService/docs/variables/config_loggerConfig.loggers.html",
+          "hash": "11897579171253839528"
+        },
+        {
+          "file": "apps/authService/docs/variables/index.app.html",
+          "hash": "824801261720754350"
+        },
+        {
+          "file": "apps/authService/docs/variables/schemas_auth.schema.AuthSchema.html",
+          "hash": "6993864922907506499"
+        },
+        {
+          "file": "apps/authService/logs/app.log",
+          "hash": "15551095796370177542"
+        },
+        {
+          "file": "apps/authService/package.json",
+          "hash": "10935031932283627603",
+          "deps": [
+            "npm:@types/node",
+            "npm:ts-node",
+            "npm:@fastify/swagger",
+            "npm:@fastify/swagger-ui",
+            "npm:@prisma/client",
+            "npm:@vitest/ui",
+            "npm:fastify",
+            "npm:nodemon",
+            "npm:pino",
+            "npm:pino-pretty",
+            "npm:prisma",
+            "npm:typedoc",
+            "npm:typedoc-unhoax-theme",
+            "npm:vitest"
+          ]
+        },
+        {
+          "file": "apps/authService/prisma/generated/prisma/client.d.ts",
+          "hash": "6801102947810818358"
+        },
+        {
+          "file": "apps/authService/prisma/generated/prisma/client.js",
+          "hash": "10400671776495891936"
+        },
+        {
+          "file": "apps/authService/prisma/generated/prisma/default.d.ts",
+          "hash": "6801102947810818358"
+        },
+        {
+          "file": "apps/authService/prisma/generated/prisma/default.js",
+          "hash": "10400671776495891936"
+        },
+        {
+          "file": "apps/authService/prisma/generated/prisma/edge.d.ts",
+          "hash": "11303388507078878756"
+        },
+        {
+          "file": "apps/authService/prisma/generated/prisma/edge.js",
+          "hash": "1711677253635297677"
+        },
+        {
+          "file": "apps/authService/prisma/generated/prisma/index-browser.js",
+          "hash": "1340156959343402619"
+        },
+        {
+          "file": "apps/authService/prisma/generated/prisma/index.d.ts",
+          "hash": "5536076026721476136"
+        },
+        {
+          "file": "apps/authService/prisma/generated/prisma/index.js",
+          "hash": "15579136943779949727"
+        },
+        {
+          "file": "apps/authService/prisma/generated/prisma/libquery_engine-debian-openssl-3.0.x.so.node",
+          "hash": "9153099714907149156"
+        },
+        {
+          "file": "apps/authService/prisma/generated/prisma/libquery_engine-linux-musl-openssl-3.0.x.so.node",
+          "hash": "16919119961617171368"
+        },
+        {
+          "file": "apps/authService/prisma/generated/prisma/package.json",
+          "hash": "333448432604450177"
+        },
+        {
+          "file": "apps/authService/prisma/generated/prisma/query_engine-windows.dll.node",
+          "hash": "6308888824732898523"
+        },
+        {
+          "file": "apps/authService/prisma/generated/prisma/runtime/edge-esm.js",
+          "hash": "1267299786513177738"
+        },
+        {
+          "file": "apps/authService/prisma/generated/prisma/runtime/edge.js",
+          "hash": "7483389722766938721"
+        },
+        {
+          "file": "apps/authService/prisma/generated/prisma/runtime/index-browser.d.ts",
+          "hash": "4654535025334731519"
+        },
+        {
+          "file": "apps/authService/prisma/generated/prisma/runtime/index-browser.js",
+          "hash": "17568067715518458519"
+        },
+        {
+          "file": "apps/authService/prisma/generated/prisma/runtime/library.d.ts",
+          "hash": "14225091348520125216"
+        },
+        {
+          "file": "apps/authService/prisma/generated/prisma/runtime/library.js",
+          "hash": "3957992495503036378"
+        },
+        {
+          "file": "apps/authService/prisma/generated/prisma/runtime/react-native.js",
+          "hash": "1489134891327310007"
+        },
+        {
+          "file": "apps/authService/prisma/generated/prisma/runtime/wasm.js",
+          "hash": "8012456253277415950"
+        },
+        {
+          "file": "apps/authService/prisma/generated/prisma/schema.prisma",
+          "hash": "9176598472362115304"
+        },
+        {
+          "file": "apps/authService/prisma/generated/prisma/wasm.d.ts",
+          "hash": "6801102947810818358"
+        },
+        {
+          "file": "apps/authService/prisma/generated/prisma/wasm.js",
+          "hash": "1340156959343402619"
+        },
+        {
+          "file": "apps/authService/prisma/migrations/20250520104331_add_anime/migration.sql",
+          "hash": "3921990029034595205"
+        },
+        {
+          "file": "apps/authService/prisma/migrations/20250520104922_add_user/migration.sql",
+          "hash": "9387498363898467316"
+        },
+        {
+          "file": "apps/authService/prisma/migrations/migration_lock.toml",
+          "hash": "872437952673290735"
+        },
+        {
+          "file": "apps/authService/prisma/schema.prisma",
+          "hash": "3340862214430877291"
+        },
+        {
+          "file": "apps/authService/src/config/apiDocConfig.ts",
+          "hash": "5866640469927120918"
+        },
+        {
+          "file": "apps/authService/src/config/db.ts",
+          "hash": "17312248890877096598"
+        },
+        {
+          "file": "apps/authService/src/config/loggerConfig.ts",
+          "hash": "12459701771154171499"
+        },
+        {
+          "file": "apps/authService/src/controllers/auth.controller.ts",
+          "hash": "9722081615821982955"
+        },
+        {
+          "file": "apps/authService/src/index.ts",
+          "hash": "11645961162966868071"
+        },
+        {
+          "file": "apps/authService/src/interfaces/auth.interface.ts",
+          "hash": "2729146697485799036"
+        },
+        {
+          "file": "apps/authService/src/models/auth.model.ts",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/authService/src/repository/auth.repository.ts",
+          "hash": "6754110422205862846"
+        },
+        {
+          "file": "apps/authService/src/routers/auth.router.ts",
+          "hash": "6568531392749134870"
+        },
+        {
+          "file": "apps/authService/src/schemas/auth.schema.ts",
+          "hash": "15990431823542842116"
+        },
+        {
+          "file": "apps/authService/src/services/auth.service.ts",
+          "hash": "8743305627871626612"
+        },
+        {
+          "file": "apps/authService/src/tests/auth.test.ts",
+          "hash": "8240615401092679701"
+        },
+        {
+          "file": "apps/authService/tsconfig.json",
+          "hash": "12183170724025852206"
+        },
+        {
+          "file": "apps/authService/typedoc.json",
+          "hash": "3251060907513282800"
+        }
+      ]
+    },
+    "nonProjectFiles": [
+      {
+        "file": "package.json",
+        "hash": "14440267458706937216"
+      },
+      {
+        "file": "pnpm-lock.yaml",
+        "hash": "3886365125381998331"
+      },
+      {
+        "file": "pnpm-workspace.yaml",
+        "hash": "6647520118706009424"
+      }
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "AniVi 3.0",
+  "entryPoints": ["src"],
+  "out": "docs",
+  "plugin": ["typedoc-unhoax-theme"],
+  "entryPointStrategy": "expand",
+  "includeVersion": true,
+  "hideGenerator": true,
+
+  "categorizeByGroup": true,
+  "sort": ["source-order"],
+
+  "excludeExternals": false,
+  "excludePrivate": false,
+  "excludeProtected": false,
+  "excludeNotDocumented": false
+}
